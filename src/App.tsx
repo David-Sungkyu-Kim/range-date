@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import DatePicker from "./DatePicker";
+import DatePicker from "./components/DatePicker";
 import "./lang/i18n";
 
 import "./assets/styles/index.css";
