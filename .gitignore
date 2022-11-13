@@ -165,3 +165,4 @@ cmake-build-debug/
 .DS_Store
 .sass-cache
 dist
+npm_install_test
