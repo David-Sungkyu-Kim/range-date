@@ -3,7 +3,7 @@ import * as React from "react";
 import CalendarDate from "./CalendarDate";
 import CalendarHeader from "./CalendarHeader";
 
-import { ICalendarProps } from "../@types/date";
+import { ICalendarProps } from "../../@types/date";
 
 export default function Calendar({ standard }: ICalendarProps) {
   return (

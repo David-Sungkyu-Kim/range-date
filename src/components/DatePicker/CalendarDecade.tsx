@@ -1,11 +1,11 @@
 import * as React from "react";
-import { useDateContext } from "../hooks/useDateContext";
-import useDecade from "../hooks/useDecade";
+import { useDateContext } from "../../hooks/useDateContext";
+import useDecade from "../../hooks/useDecade";
 
-import { IDatePickerContextValues } from "../@types/dateContext";
-import { ICalendarProps } from "../@types/date";
-import { useDatePickerOptionValuesContext } from "../hooks/useDateOptionContext";
-import { convertToDeafultFormat, findDecadeInYear, findYearInStr } from "../utils/dateFormat";
+import { IDatePickerContextValues } from "../../@types/dateContext";
+import { ICalendarProps } from "../../@types/date";
+import { useDatePickerOptionValuesContext } from "../../hooks/useDateOptionContext";
+import { convertToDeafultFormat, findDecadeInYear, findYearInStr } from "../../utils/dateFormat";
 
 export default function CalendarDecade({ standard }: ICalendarProps) {
   const { value: date, action } = useDateContext();

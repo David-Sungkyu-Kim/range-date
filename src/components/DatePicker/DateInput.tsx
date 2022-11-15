@@ -1,15 +1,15 @@
 import * as React from "react";
-import { useDatePickerOptionValuesContext } from "../hooks/useDateOptionContext";
-import { useDateContext } from "../hooks/useDateContext";
+import { useDatePickerOptionValuesContext } from "../../hooks/useDateOptionContext";
+import { useDateContext } from "../../hooks/useDateContext";
 import { useTranslation } from "react-i18next";
 
 import {
   checkSetFormatRegExr,
   convertToDeafultFormat,
   formattingNumToDate,
-} from "../utils/dateFormat";
-import { EMode, EStandard, EType, IDateInputProps } from "../@types/date";
-import { IDatePickerContextValues } from "../@types/dateContext";
+} from "../../utils/dateFormat";
+import { EMode, EStandard, EType, IDateInputProps } from "../../@types/date";
+import { IDatePickerContextValues } from "../../@types/dateContext";
 
 export default function DateInput({ standard, setIsActive, value }: IDateInputProps) {
   const { t } = useTranslation();

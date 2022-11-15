@@ -3,7 +3,7 @@ import React from "react";
 import { act, fireEvent, render, renderHook, screen } from "@testing-library/react";
 import { useDateContext } from "../hooks/useDateContext";
 
-import DateInput from "../components/DateInput";
+import DateInput from "../components/range-date/DateInput";
 import DateProvider from "../context/DateProvider";
 
 import { formattingNumToDate } from "../utils/dateFormat";

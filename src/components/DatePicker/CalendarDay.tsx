@@ -1,15 +1,15 @@
 import * as React from "react";
-import useDay from "../hooks/useDay";
-import { useDateContext } from "../hooks/useDateContext";
+import useDay from "../../hooks/useDay";
+import { useDateContext } from "../../hooks/useDateContext";
 import { useTranslation } from "react-i18next";
 
-import i18n from "../lang/i18n";
+import i18n from "../../lang/i18n";
 
-import { weekDays } from "../utils/constants/date";
-import { IDatePickerContextValues } from "../@types/dateContext";
-import { EType, ICalendarDayProps, IDay } from "../@types/date";
-import { useDatePickerOptionValuesContext } from "../hooks/useDateOptionContext";
-import { convertToDeafultFormat } from "../utils/dateFormat";
+import { weekDays } from "../../utils/constants/date";
+import { IDatePickerContextValues } from "../../@types/dateContext";
+import { EType, ICalendarDayProps, IDay } from "../../@types/date";
+import { useDatePickerOptionValuesContext } from "../../hooks/useDateOptionContext";
+import { convertToDeafultFormat } from "../../utils/dateFormat";
 
 export default function CalendarDay({ standard, year, month }: ICalendarDayProps) {
   const { t } = useTranslation();

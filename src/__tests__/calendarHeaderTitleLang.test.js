@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 import { render, waitFor, renderHook } from "@testing-library/react";
 import { useDateContext } from "../hooks/useDateContext";
 
-import CalendarHeader from "../components/CalendarHeader";
+import CalendarHeader from "../components/range-date/CalendarHeader";
 import DateProvider from "../context/DateProvider";
 import i18n from "../lang/i18n";
 

@@ -3,7 +3,7 @@ import React from "react";
 import { act, fireEvent, render, renderHook } from "@testing-library/react";
 import { useDateContext } from "../hooks/useDateContext";
 
-import CalendarHeader from "../components/CalendarHeader";
+import CalendarHeader from "../components/range-date/CalendarHeader";
 import DateProvider from "../context/DateProvider";
 
 import { EStandard, EUnit } from "../@types/date";

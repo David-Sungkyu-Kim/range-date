@@ -1,1 +1,1 @@
-export { default as RangeDate } from "./DatePicker";
+export { default as DatePicker } from './DatePicker'
