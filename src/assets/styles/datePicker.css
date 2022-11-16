@@ -74,7 +74,6 @@
   justify-content: center;
   height: 34px;
   margin-bottom: 10px;
-  font-family: rex-bold;
 }
 
 .calendarHeaderBtn {
@@ -155,7 +154,6 @@
   display: flex;
   justify-content: center;
   width: calc(100% / 7);
-  font-family: rex-bold;
 }
 
 .calendarDateDayUnitContentWrapper {
